@@ -10,7 +10,6 @@ public partial class NCAboutPage : ContentPage
     {
         if (BindingContext is NCModels.NCAbout about)
         {
-            // Navigate to the specified URL in the system browser.
             await Launcher.Default.OpenAsync(about.MoreInfoUrl);
         }
     }

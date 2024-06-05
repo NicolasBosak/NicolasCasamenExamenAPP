@@ -7,11 +7,20 @@
         AlignItems="Center"
         JustifyContent="SpaceEvenly">
         <Label Text="Bienvenido a tu APP de Notas"
-       FontSize="18" />
+        FontSize="18" />
         <Image Source="dotnet_bot_branded.png"
-       HeightRequest="300" />
-        <Button Text="Crear Nota" />
-        <Button Text="Contar Caracteres" />
-        <Button Text="Informacion" />
+        HeightRequest="300" />
+        <Button Text="Crear Nota"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Clicked="OnButtonClicked" />
+        <Button Text="Contar Caracteres"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Clicked="ContarClicked" />
+        <Button Text="Informacion"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Clicked="InformacionClicked" />
     </FlexLayout>
 </ContentPage>
